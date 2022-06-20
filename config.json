@@ -1,0 +1,9 @@
+{
+  "token": "your-bot-token-here",
+  "clientId": "your-client-id-here",
+  "guildId": "your-guild-id-here",
+  "prefix": "$",
+  "defaultRole": "",
+  "welcomeChannel": "",
+  "storyChannel": ""
+}
