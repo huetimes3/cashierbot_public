@@ -1,0 +1,48 @@
+{
+  "name": "cashierbot",
+  "version": "0.0.1",
+  "description": "A simple discord bot. Attempting to make a discord bot for the SUPER!store server",
+  "main": "cashierbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cashierbot.js"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "ascii-table": "^0.0.9",
+    "better-sqlite3": "^7.5.3",
+    "discord-api-types": "^0.34.0",
+    "discord.js": "^13.8.0",
+    "enmap": "^5.9.0",
+    "express": "^4.18.1",
+    "fs": "0.0.2",
+    "fs-extra": "^10.1.0",
+    "moment": "^2.29.3"
+  },
+  "repository": {
+    "url": ""
+  },
+  "contributors": [
+    {
+      "name": "HueTimes3",
+      "email": "huetimes3@gmail.com"
+    },
+    {
+      "name": "darjeeling"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "superstore",
+    "cashierbot"
+  ],
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
